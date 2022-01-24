@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="tat">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+    <article class="widget">
+       <form class="weatherLocation"><input class="but" placeholder="location..." type = "text"/><button class= "sea">Search</button>
+                </form>
+  <div class="weatherIcon"><i class=" wi-day-cloudy"></i></div>
+  <div class="weatherInfo">
+    <div class="temperature"><span></span></div>
+    <div class="description">    
+      <div class="weathercondition"></div>    
+      <div class="place"></div>
+    </div>
+  </div>
+  <div class="date"></div>
+</article>
+</div>
+<script src="/weatherapp.js"></script>
+</body>
+</html>
