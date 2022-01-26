@@ -1,9 +1,9 @@
 # weatherapp
-Weather app that tells latest temperature in celcius and weather info through weather API and latest day and month 
+Weather app that tells latest temperature in celcius and shows weather info like cloudy ,thunderstorm , rain ,fog etc conditions through weather API and latest day and month 
 
 # tech used
 
-=> Used weather API from 'openweather map'
+=> Used weather API key from 'openweather map'
 
 => used node.js and express.js for the backend 
 
